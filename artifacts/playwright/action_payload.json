@@ -1,0 +1,106 @@
+{
+  "steps": [
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 447,
+      "mouse_y": 482,
+      "frames": 6
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 568,
+      "mouse_y": 419,
+      "frames": 8
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 568,
+      "mouse_y": 419,
+      "frames": 10
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 751,
+      "frames": 4
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 688,
+      "mouse_y": 333,
+      "frames": 10
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 969,
+      "frames": 4
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 688,
+      "mouse_y": 333,
+      "frames": 12
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 324,
+      "frames": 900
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 664,
+      "frames": 4
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 688,
+      "mouse_y": 505,
+      "frames": 10
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 1056,
+      "frames": 4
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 688,
+      "mouse_y": 505,
+      "frames": 12
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 324,
+      "frames": 1150
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 751,
+      "frames": 4
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 808,
+      "mouse_y": 419,
+      "frames": 12
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 324,
+      "frames": 1340
+    },
+    {
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 119,
+      "mouse_y": 324,
+      "frames": 1760
+    }
+  ]
+}
