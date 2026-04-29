@@ -631,7 +631,11 @@ export function applyMod(state, slotId, modKey = state.selectedModKey) {
 }
 
 export function activateSlot(state, slotId) {
+  const tower = getTowerAtSlot(state, slotId);
   if (state.activeTool === "mod") {
+    return applyMod(state, slotId, state.selectedModKey);
+  }
+  if (tower && !tower.mod) {
     return applyMod(state, slotId, state.selectedModKey);
   }
   return buildTower(state, slotId, state.selectedBuildType);
