@@ -1,0 +1,123 @@
+{
+  "mode": "victory",
+  "tick": 832,
+  "clockMs": 83200,
+  "wave": 4,
+  "clearedWaves": 4,
+  "totalWaves": 4,
+  "score": 4090,
+  "highScore": 4090,
+  "credits": 123,
+  "border": 10,
+  "kills": 24,
+  "leaks": 4,
+  "selectedBuildType": "cannon",
+  "selectedModKey": "frost",
+  "activeTool": "build",
+  "cursor": {
+    "lane": 2,
+    "column": 3
+  },
+  "lastEvent": "Border held through dawn. Press Enter to redeploy.",
+  "towers": [
+    {
+      "id": "cannon-L2C3",
+      "slotId": "L2C3",
+      "lane": 1,
+      "column": 2,
+      "type": "cannon",
+      "mod": "burst",
+      "cooldownMs": 0,
+      "shotsFired": 12
+    },
+    {
+      "id": "sentry-L3C2",
+      "slotId": "L3C2",
+      "lane": 2,
+      "column": 1,
+      "type": "sentry",
+      "mod": "relay",
+      "cooldownMs": 0,
+      "shotsFired": 102
+    },
+    {
+      "id": "cannon-L3C4",
+      "slotId": "L3C4",
+      "lane": 2,
+      "column": 3,
+      "type": "cannon",
+      "mod": null,
+      "cooldownMs": 0,
+      "shotsFired": 7
+    },
+    {
+      "id": "sentry-L4C3",
+      "slotId": "L4C3",
+      "lane": 3,
+      "column": 2,
+      "type": "sentry",
+      "mod": "frost",
+      "cooldownMs": 0,
+      "shotsFired": 40
+    }
+  ],
+  "enemies": [],
+  "projectiles": [],
+  "events": [
+    "1 hostile neutralized",
+    "1 hostile neutralized",
+    "Shield Cart breached the line",
+    "1 hostile neutralized",
+    "Border held through dawn. Press Enter to redeploy."
+  ],
+  "lanes": [
+    {
+      "lane": 0,
+      "towers": [],
+      "enemies": []
+    },
+    {
+      "lane": 1,
+      "towers": [
+        {
+          "slotId": "L2C3",
+          "type": "cannon",
+          "mod": "burst"
+        }
+      ],
+      "enemies": []
+    },
+    {
+      "lane": 2,
+      "towers": [
+        {
+          "slotId": "L3C2",
+          "type": "sentry",
+          "mod": "relay"
+        },
+        {
+          "slotId": "L3C4",
+          "type": "cannon",
+          "mod": "none"
+        }
+      ],
+      "enemies": []
+    },
+    {
+      "lane": 3,
+      "towers": [
+        {
+          "slotId": "L4C3",
+          "type": "sentry",
+          "mod": "frost"
+        }
+      ],
+      "enemies": []
+    },
+    {
+      "lane": 4,
+      "towers": [],
+      "enemies": []
+    }
+  ]
+}

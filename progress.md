@@ -1,6 +1,23 @@
 # Progress
 
-- Scaffolded canonical daily folder, docs, and package metadata.
-- Selected source game: `border-defense`.
-- Selected twist: `turret mods`.
-- Next: implement deterministic simulation, UI, tests, and automated capture flow.
+- Scaffolded canonical daily folder, docs, package metadata, and a fresh git repository.
+- Created the brand-new GitHub repo `daily-classic-game-2026-04-29-border-defense-turret-mods` immediately after the scaffold commit.
+- Implemented the deterministic five-lane defense core with:
+  - fixed wave blueprints
+  - two turret chassis
+  - three permanent mod cores
+  - score, leak, pause, reset, and restart rules
+- Built the responsive command-board UI and exposed:
+  - `window.advanceTime(ms)`
+  - `window.render_game_to_text()`
+- Added deterministic validation:
+  - `pnpm test`
+  - `node scripts/self-check.mjs`
+- Added automated capture output:
+  - `screen-start.png`
+  - `screen-live.png`
+  - `screen-final.png`
+  - three GIF clips
+  - final render dump
+- Verified the mobile breakpoint after fixing battlefield overflow by making the map geometry responsive.
+- Remaining automation work: publish the feature branch PR, merge to `main`, run post-merge verification, deploy preview, and reconcile catalog/state/report records.
